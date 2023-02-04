@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello from CodeX! (code-davinci-002)'
+    message: 'Hello from CodeX! (text-davinci-003)'
   })
 })
 
